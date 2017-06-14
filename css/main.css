@@ -605,6 +605,8 @@ footer {
     .slider {
       width: auto;
       left: 0; }
+      .slider:after {
+        display: none; }
       .slider__pages {
         width: 100%; }
       .slider__content {
