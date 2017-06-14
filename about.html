@@ -17,10 +17,10 @@
 				<nav class="menu">
 					<button class="btn  btn--menu  js-menu-toggle"><i class="icon  icon--menu"></i></button>
 					<ul class="menu-list">
-						<li class="menu-list__item  active"><a href="index.html">Главная</a></li>
+						<li class="menu-list__item"><a href="index.html">Главная</a></li>
 						<li class="menu-list__item"><a href="projects.html">Проекты</a></li>
 						<li class="menu-list__item"><a href="service.html">Услуги</a></li>
-						<li class="menu-list__item"><a href="about.html">О компании</a></li>
+						<li class="menu-list__item  active"><a href="about.html">О компании</a></li>
 						<li class="menu-list__item"><a href="news.html">Видео</a></li>
 						<li class="menu-list__item  menu-list__item--phone"><a href="tel:+78009000000">+7 800 900 00 00</a></li>
 					</ul>
@@ -31,55 +31,31 @@
 		<!-- header END -->
 		
 		<!-- content -->
-		<div class="content">
+		<div class="content  content--about  js-auto-scroll-margin">
 
-			<!-- left-menu -->
-			<nav class="left-menu">
-				<ul>
-					<li class="left-menu__item"><a href="#!" class="js-show-page-1">
-						<i class="icon icon--stroicontrol"><img src="images/icon_stroicontrol.png" alt=""></i>
-						<span class="left-menu__text">Стройконтроль</span>
-					</a></li>
-					<li class="left-menu__item"><a href="#!" class="js-show-page-2">
-						<i class="icon icon--remont"><img src="images/icon_remont.png" alt=""></i>
-						<span class="left-menu__text">Ремонт</span>
-					</a></li>
-					<li class="left-menu__item"><a href="#!" class="js-show-page-3">
-						<i class="icon icon--stroitelstvo"><img src="images/icon_stroitelstvo.png" alt=""></i>
-						<span class="left-menu__text">Строительство</span>
-					</a></li>
-				</ul>
-			</nav>
-			<!-- left-menu END -->
-
-			<div class="content__cover  blur-this" style="background-image: url(images/main_bg.jpg)"></div>
+			<!-- content aside -->
+			<div class="content__aside">
+				<div class="about">
+					<div class="about__logo"><img src="images/logo_rhomb.png" alt="" class="about__logo-img"></div>
+					<div class="scrolling-container">
+						<div class="scrolling-content  js-auto-scroll-margin">
+							<p class="about__text  about__text--company">ООО "Служба Профессионального Сопровождения Строительства"</p>
+							<p class="about__text">620010, Свердловская облрасть, г. Екатеринбург, Дагестанская улица, 34, 28</p>
+							<p class="about__text">Понедельник - Пятницу <br> с 9:00 до 17:00</p>
+							<p class="about__text"><a href="mailto:spsc-ural@mail.ru">Email: spsc-ural@mail.ru</a></p>
+							<p class="about__text">
+								<a href="tel:+73432003016">+7 343 200-30-16</a><br>
+								<a href="tel:+79527430111">+7 952 74-30-111</a><br>
+								<a href="tel:+79089086596">+7 908 90-86-596</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- content aside END -->
 
 			<!-- content body -->
-			<div class="content__body">
-				<div class="content__logo"><img src="images/top_banner.png" alt=""></div>
-			
-				<!-- slider -->
-				<div class="slider">
-
-					<button class="btn  btn--close  js-hide-slider"><i class="icon  icon--clear"></i></button>
-					<button class="slider__close  slider__close--mid  js-hide-slider"><i class="icon icon--slider"></i></button>
-					
-					<section class="slider__pages">
-						<div class="slider__page  slider__page--1  js-auto-scroll-padding">
-							<article class="slider__content  js-auto-scroll-margin">
-								<h2 class="slider__title">Стройконтроль</h2>
-								<a href="#!" class="btn  btn--slider-link"><span class="btn__text">Полный список услуг</span></a>
-								<div class="slider__text">
-									<p>Комплексное сопровождение строительства (реконструкции) объектов недвижимости является основным направлением деятельности нашей организации и представляет собой полный цикл управления строительством и реконструкцией объектов недвижимости. </p>
-									<p>Кроме того, наши сотрудники обладают соответствующими практическими навыками, необходимыми для взаимодействия с органами государственной власти, получения различных видов разрешительной документации, согласований и разрешений, внесения изменений в указанную документацию. </p>
-									<p>Мы готовы осуществлять сопровождение проекта на всех этапах: от выбора участка с его оформлением до сдачи объекта в эксплуатацию.</p>
-								</div>
-								<a href="#!" class="btn  btn--calc-on  js-show-calc"><span class="btn__text">Рассчитать стоимость</span></a>
-							</article>
-						</div>
-					</section>
-				</div>
-				<!-- slider END -->
+			<div class="content__body  content__body--flexible">
 
 				<!-- calc (Расчет стоимости) -->
 				<div class="calc  calc--hidden">
@@ -164,25 +140,31 @@
 				</div>
 				<!-- calc END -->
 
+				<!-- map -->
+				<div class="map">
+					<div class="map__cover"></div>
+					<div class="map__point"><i class="icon icon--map-point"></i></div>
+				</div>
+				<!-- map END -->
+
 			</div>
 			<!-- content body END -->
 
 		</div>
 		<!-- content END -->
 
+		<!-- footer -->
+		<footer class="footer-flexible">
+			<div class="footer__row">
+				<a href="#!" class="footer__dev">
+					<span>Разработано в </span>
+					<img src="images/ICK_logo.png" alt="">
+				</a>
+			</div>
+		</footer>
+		<!-- footer END -->
+
 	</main>
-	<footer>
-		<div class="footer__row">
-			<ul class="footer__nav">
-				<li class="footer__nav-arrow footer__nav-arrow--prev"></li>
-				<li class="footer__nav-arrow footer__nav-arrow--next"></li>
-			</ul>
-			<a href="#!" class="footer__dev">
-				<span>Разработано в </span>
-				<img src="images/ICK_logo.png" alt="">
-			</a>
-		</div>
-	</footer>
 
 	<div class="search">
 

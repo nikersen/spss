@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>СПСС</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<main class="page">
+
+		<!-- header -->
+		<header>
+			<div class="header-top">
+				<a href="#!" class="logo"><img src="images/logo.png" alt=""></a>
+				<nav class="menu">
+					<button class="btn  btn--menu  js-menu-toggle"><i class="icon  icon--menu"></i></button>
+					<ul class="menu-list">
+						<li class="menu-list__item"><a href="index.html">Главная</a></li>
+						<li class="menu-list__item  active"><a href="projects.html">Проекты</a></li>
+						<li class="menu-list__item"><a href="service.html">Услуги</a></li>
+						<li class="menu-list__item"><a href="about.html">О компании</a></li>
+						<li class="menu-list__item"><a href="news.html">Видео</a></li>
+						<li class="menu-list__item  menu-list__item--phone"><a href="tel:+78009000000">+7 800 900 00 00</a></li>
+					</ul>
+					<button class="btn  btn--search  js-open-search"><i class="icon icon--search"></i></button>
+				</nav>
+			</div>
+		</header>
+		<!-- header END -->
+		
+		<!-- content -->
+		<div class="content">
+
+			<div class="content__cover  blur-this" style="background-image: url(images/main_bg.jpg)"></div>
+
+			<!-- content aside -->
+			<div class="content__aside">
+				<div class="scrolling-container">
+					<div class="scrolling-content  js-auto-scroll-margin">
+						<div class="calc-horizontal">
+							<form action="#!" class="calc-form">
+								<div class="calc-form__params">
+									<div class="calc-form__desc  calc-form__desc--hidden">
+										<p>Мы предоставляем большой выбор разнообразных проектов 
+										 <p>Подберите проект под себя, или напишите нам, если у вас уже есть проект дома/квартиры</p>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Жилая площадь</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">до 50 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">50-100 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">100-150 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">150-250 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">более 250 кв.м</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Дом</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">до 50 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">50-100 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">100-150 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">150-250 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">более 250 кв.м</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Строительство</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Фундамент</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eius, quo minus illo id aut.</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="calc-form__left">
+									<div class="calc-form__desc">
+										<p>Мы предоставляем большой выбор разнообразных проектов 
+										 <p>Подберите проект под себя, или напишите нам, если у вас уже есть проект дома/квартиры</p>
+									</div>
+									<input type="submit" class="btn  calc-form__submit" value="Рассчитать стоимость">
+								</div>
+							</form>
+						</div>
+						<div class="tile">
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_1.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Коттердж 220 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_2.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двух этажный лесной домик 140 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_3.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Домик охотника</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_4.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двухэтажный коттедж хай-тек</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_2.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двух этажный коттедж хай-тек 300 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_5.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Коттердж 220 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_1.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Коттердж 220 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_2.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двух этажный лесной домик 140 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_3.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Домик охотника</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_4.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двухэтажный коттедж хай-тек</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_2.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Двух этажный коттедж хай-тек 300 кв.м.</p>
+									</div>
+								</a>
+							</div>
+							<div class="tile__item">
+								<a href="#!" class="tile__clickzone  js-show-page-1">
+									<div class="tile__cover" style="background-image: url(images/project_photo_5.jpg);"></div>
+									<div class="tile__info">
+										<p class="tile__text">Коттердж 220 кв.м.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- content aside END -->
+
+			<!-- content body -->
+			<div class="content__body  content__body--flexible">
+				<!-- <div class="content__logo"><img src="images/top_banner.png" alt=""></div> -->
+			
+				<!-- slider -->
+				<div class="slider  slider--full-width">
+
+					<button class="btn  btn--close  js-hide-slider"><i class="icon  icon--clear"></i></button>
+					
+					<section class="slider__pages">
+						<div class="slider__page  slider__page--1  js-auto-scroll-padding">
+							<article class="slider__content  js-auto-scroll-margin">
+								<h2 class="slider__title  slider__title--light">Строительство коттеджа в стиле хай-тек</h2>
+								<div class="slider__text">
+									<p>Коттедж, как правило, это либо одноэтажный, либо двухэтажный дом с камином, сауной, иногда и бассейном, но вместо полноценного второго этажа обычно делают небольшую мансарду. И возле коттеджа обязательно должен быть, хотя бы минимальный приусадебный участок, огород.</p>
+								</div>
+								<div class="slider__img">
+									<img src="images/slider_video_img.jpg" width="100%">
+								</div>
+							</article>
+						</div>
+					</section>
+				</div>
+				<!-- slider END -->
+
+				<!-- calc (Расчет стоимости) -->
+				<div class="calc  calc--hidden">
+					<button class="btn  btn--close  js-hide-calc"><i class="icon  icon--clear"></i></button>
+					
+					<div class="calc__scroll  js-scrollbar-width  js-auto-scroll-padding">
+						<div class="calc__content  js-auto-scroll-margin">
+							<div class="calc__desc">
+								<p>Ответье на несколько вопросов и отправтье нам запрос на подсчет стоимости работ</p>
+								<p>Мы свяжемся с вами в ближайшее время</p>
+							</div>
+
+							<form action="#!" class="calc-form">
+								<div class="calc-form__params">
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Жилая площадь</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">до 50 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">50-100 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">100-150 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">150-250 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">более 250 кв.м</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Дом</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">до 50 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">50-100 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">100-150 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">150-250 кв.м</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">более 250 кв.м</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field  js-show-dropdown">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Строительство</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+											</ul>
+										</div>
+									</div>
+									<div class="calc-form__item">
+										<div class="calc-form__field">
+											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
+											<span class="calc-form__val"><span>Фундамент</span></span>
+											<input type="hidden" class="calc-form__input-hidden">
+										</div>
+										<div class="calc-form__dropdown">
+											<ul class="calc-form__dropdown-list">
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eius, quo minus illo id aut.</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<input type="submit" class="btn  calc-form__submit" value="Отправить запрос">
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- calc END -->
+
+			</div>
+			<!-- content body END -->
+
+		</div>
+		<!-- content END -->
+
+		<footer class="footer-flexible">
+			<div class="footer__row">
+				<a href="#!" class="footer__dev">
+					<span>Разработано в </span>
+					<img src="images/ICK_logo.png" alt="">
+				</a>
+			</div>
+		</footer>
+	</main>
+
+	<div class="search">
+
+		<button class="btn  btn--close  js-close-search"><i class="icon  icon--clear"></i></button>
+
+		<div class="search__scroll">
+			<div class="search__content  js-auto-scroll-padding">
+				<div class="search__field">
+					<label for="input-search"><i class="icon icon--search"></i></label>
+					<input type="text" class="search__input" id="input-search" placeholder="поиск по сайту">
+				</div>
+
+				<div class="search__links">
+					<a href="#!" class="search__link  search__link--large  search__link--underline">Карта сайта</a>
+
+					<ul class="search__list">
+						<li>
+							<a href="#!" class="search__link  search__link--underline">Главная</a>
+
+							<ul class="search__list">
+								<li><a href="#!" class="search__link">Стройконтроль</a></li>
+								<li><a href="#!" class="search__link">Ремонт</a></li>
+								<li><a href="#!" class="search__link">Строительство</a></li>
+							</ul>
+						</li>
+						<li><a href="#!" class="search__link">Проекты</a></li>
+						<li><a href="#!" class="search__link">Услуги</a></li>
+						<li><a href="#!" class="search__link">О компании</a></li>
+						<li><a href="#!" class="search__link">Видео</a></li>
+					</ul>
+
+					<a href="#!" class="btn  btn--inverse  btn--calc-on">Калькулятор услуг</a>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
