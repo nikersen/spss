@@ -33,6 +33,25 @@
 		<!-- content -->
 		<div class="content">
 
+			<!-- left-menu -->
+			<!-- <nav class="left-menu">
+				<ul>
+					<li class="left-menu__item"><a href="#!" class="js-show-page-1">
+						<i class="icon icon--stroicontrol"><img src="images/icon_stroicontrol.png" alt=""></i>
+						<span class="left-menu__text">Стройконтроль</span>
+					</a></li>
+					<li class="left-menu__item"><a href="#!" class="js-show-page-2">
+						<i class="icon icon--remont"><img src="images/icon_remont.png" alt=""></i>
+						<span class="left-menu__text">Ремонт</span>
+					</a></li>
+					<li class="left-menu__item"><a href="#!" class="js-show-page-3">
+						<i class="icon icon--stroitelstvo"><img src="images/icon_stroitelstvo.png" alt=""></i>
+						<span class="left-menu__text">Строительство</span>
+					</a></li>
+				</ul>
+			</nav> -->
+			<!-- left-menu END -->
+
 			<div class="content__cover  blur-this" style="background-image: url(images/main_bg.jpg)"></div>
 
 			<!-- content aside -->
@@ -179,6 +198,9 @@
 							</div>
 
 							<form action="#!" class="calc-form">
+								<div class="calc-form__finish">
+									<span class="btn  calc-form__submit">Запрос отправлен</span>
+								</div>
 								<div class="calc-form__params">
 									<div class="calc-form__item">
 										<div class="calc-form__field  js-show-dropdown">
@@ -196,7 +218,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field  js-show-dropdown">
 											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
 											<span class="calc-form__val"><span>Дом</span></span>
@@ -212,7 +234,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field  js-show-dropdown">
 											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
 											<span class="calc-form__val"><span>Строительство</span></span>
@@ -227,23 +249,18 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field">
-											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
-											<span class="calc-form__val"><span>Фундамент</span></span>
-											<input type="hidden" class="calc-form__input-hidden">
+											<input type="text" class="calc-form__input" placeholder="Ваше имя">
 										</div>
-										<div class="calc-form__dropdown">
-											<ul class="calc-form__dropdown-list">
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eius, quo minus illo id aut.</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-											</ul>
+										<div class="calc-form__field">
+											<input type="text" class="calc-form__input" placeholder="Телефон">
+										</div>
+										<div class="calc-form__field">
+											<input type="submit" class="btn  calc-form__submit  js-form-success" value="Отправить запрос">
 										</div>
 									</div>
 								</div>
-								<input type="submit" class="btn  calc-form__submit" value="Отправить запрос">
 							</form>
 						</div>
 					</div>

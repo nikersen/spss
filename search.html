@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>СПСС</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<main class="page">
+
+		<!-- header -->
+		<header>
+			<div class="header-top">
+				<a href="#!" class="logo"><img src="images/logo.png" alt=""></a>
+				<nav class="menu">
+					<button class="btn  btn--menu  js-menu-toggle"><i class="icon  icon--menu"></i></button>
+					<ul class="menu-list">
+						<li class="menu-list__item"><a href="index.html">Главная</a></li>
+						<li class="menu-list__item"><a href="projects.html">Проекты</a></li>
+						<li class="menu-list__item  active"><a href="service.html">Услуги</a></li>
+						<li class="menu-list__item"><a href="about.html">О компании</a></li>
+						<li class="menu-list__item"><a href="news.html">Видео</a></li>
+						<li class="menu-list__item  menu-list__item--phone"><a href="tel:+78009000000">+7 800 900 00 00</a></li>
+					</ul>
+					<button class="btn  btn--search  js-open-search"><i class="icon icon--search"></i></button>
+				</nav>
+			</div>
+		</header>
+		<!-- header END -->
+		
+		<!-- content -->
+		<div class="content">
+
+			<div class="search  search--page">
+
+				<div class="search__scroll">
+					<div class="search__content  js-auto-scroll-padding  js-scrollbar-width">
+						<div class="search__field">
+							<label for="input-search"><i class="icon icon--search"></i></label>
+							<input type="text" class="search__input" id="input-search" placeholder="поиск по сайту">
+						</div>
+						
+						<div class="search-results">
+							<div class="search-results__title">По вашему запросу найдено:</div>
+							<ol class="search-results__list">
+								<li>Результат <a href="#">ссылка</a> остальной текст</li>
+								<li>Результат <a href="#">ссылка</a> остальной текст</li>
+								<li>Результат <a href="#">ссылка</a> остальной текст</li>
+								<li>Результат <a href="#">ссылка</a> остальной текст</li>
+							</ol>
+
+							<a href="#!" class="btn  btn--inverse  btn--calc-on">Калькулятор услуг</a>
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		<!-- content END -->
+
+		<footer class="footer-flexible">
+			<div class="footer__row">
+				<a href="#!" class="footer__dev">
+					<span>Разработано в </span>
+					<img src="images/ICK_logo.png" alt="">
+				</a>
+			</div>
+		</footer>
+	</main>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -51,8 +51,25 @@
 				</ul>
 			</nav>
 			<!-- left-menu END -->
-
-			<div class="content__cover  blur-this" style="background-image: url(images/main_bg.jpg)"></div>
+	
+			<div class="carousel" id="carousel-here">
+				<div class="carousel__slide  blur-this">
+					<video autoplay="autoplay" preload="auto" loop data-autoplay>
+						<source src="files/video.mp4" />
+					</video>
+					<div class="content__cover" style="background-image: url(images/main_bg.jpg)"></div>
+				</div>
+				<div class="carousel__slide  blur-this">
+					<video autoplay="autoplay" preload="auto" loop data-autoplay>
+						<source src="files/cover.mp4" />
+					</video>
+					<div class="content__cover" style="background-image: url(images/cover-video-1.jpg)"></div>
+				</div>
+				<div class="carousel__slide  blur-this">
+					<div class="content__cover" style="background-image: url(images/main_bg.jpg)"></div>
+				</div>
+			</div>
+			<!-- <div class="content__cover  blur-this" style="background-image: url(images/main_bg.jpg)"></div> -->
 
 			<!-- content body -->
 			<div class="content__body">
@@ -62,7 +79,7 @@
 				<div class="slider">
 
 					<button class="btn  btn--close  js-hide-slider"><i class="icon  icon--clear"></i></button>
-					<button class="slider__close  slider__close--mid  js-hide-slider"><i class="icon icon--slider"></i></button>
+					<button class="slider__close  slider__close--mid  js-toggle-slider"><i class="icon icon--slider"></i></button>
 					
 					<section class="slider__pages">
 						<div class="slider__page  slider__page--1  js-auto-scroll-padding">
@@ -93,6 +110,9 @@
 							</div>
 
 							<form action="#!" class="calc-form">
+								<div class="calc-form__finish">
+									<span class="btn  calc-form__submit">Запрос отправлен</span>
+								</div>
 								<div class="calc-form__params">
 									<div class="calc-form__item">
 										<div class="calc-form__field  js-show-dropdown">
@@ -110,7 +130,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field  js-show-dropdown">
 											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
 											<span class="calc-form__val"><span>Дом</span></span>
@@ -126,7 +146,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field  js-show-dropdown">
 											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
 											<span class="calc-form__val"><span>Строительство</span></span>
@@ -141,23 +161,18 @@
 											</ul>
 										</div>
 									</div>
-									<div class="calc-form__item">
+									<div class="calc-form__item  hidden">
 										<div class="calc-form__field">
-											<div class="calc-form__trigger"><i class="icon  icon--arrow-down-black"></i></div>
-											<span class="calc-form__val"><span>Фундамент</span></span>
-											<input type="hidden" class="calc-form__input-hidden">
+											<input type="text" class="calc-form__input" placeholder="Ваше имя">
 										</div>
-										<div class="calc-form__dropdown">
-											<ul class="calc-form__dropdown-list">
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eius, quo minus illo id aut.</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-												<li class="calc-form__dropdown-item  js-dropdown-val">Lorem</li>
-											</ul>
+										<div class="calc-form__field">
+											<input type="text" class="calc-form__input" placeholder="Телефон">
+										</div>
+										<div class="calc-form__field">
+											<input type="submit" class="btn  calc-form__submit  js-form-success" value="Отправить запрос">
 										</div>
 									</div>
 								</div>
-								<input type="submit" class="btn  calc-form__submit" value="Отправить запрос">
 							</form>
 						</div>
 					</div>
@@ -224,6 +239,7 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
